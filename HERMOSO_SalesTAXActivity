@@ -1,0 +1,11 @@
+
+
+print("SALE TAX ")
+
+        # PURCHASE AMOUNT
+
+sales = eval(input("ENTER SALES: "))
+tax = sales * .06
+discount = "{:.2f}".format(tax)
+print("the discounted price of", sales, "is", discount )
+
